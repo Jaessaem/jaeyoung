@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+
 const host = process.env.DB_HOST || '127.0.0.1'
 // const dbURL = `mongodb://${host}/Loc8r`;
 const dbURL = 'mongodb+srv://user1:12341234@cluster0.sjaf4ap.mongodb.net/Loc8r';
@@ -11,7 +12,7 @@ const connect = () => {
 }
 
 mongoose.connection.on('connected', () => {
-  console.log('Mongoose connented to ' + dbURL);
+  console.log('Mongoose connected to ' + dbURL);
 });
 
 mongoose.connection.on('error', err => {
@@ -60,4 +61,3 @@ connect();
 
 require('./locations');
 require('./users');
-

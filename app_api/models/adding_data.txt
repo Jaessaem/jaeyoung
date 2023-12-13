@@ -1,0 +1,20 @@
+<div class="card">
+    <div class="card-block">
+        <h4>
+            <a href="/location/5f2a3b39e7304b02484222d3">Burger Queen</a>
+            <small>&nbsp;
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+            </small>
+            <span class="badge badge-pill badge-default float-right">5.1km</span>
+        </h4>
+        <p class="address">서울특별시 관악구 봉천동 남부순환로 1934</p>
+        <div class="facilities">
+            <span class="badge badge-warning">Hot drinks</span>
+            <span class="badge badge-warning">Premium wifi</span>
+        </div>
+    </div>
+</div>
